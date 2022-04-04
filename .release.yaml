@@ -5,8 +5,8 @@ plugins:
   - - "@semantic-release/exec"
     - "prepareCmd": |-
         echo ${nextRelease.version}
-        sed 's;0.0.0;${nextRelease.version};g' pubspec.yaml | tee pubspec.yaml ;
-        flutter pub login
+        sed -i 's;0.0.0;${nextRelease.version};g' pubspec.yaml ;
+        bash pub_login.sh
       "publishCmd": |-
         echo pubhlish mirror ${nextRelease.version} ;
         flutter pub publish --force
