@@ -1,4 +1,4 @@
-# syntax_highlighter
+# markdown_syntax_highlighter
 
 syntax highlighter for show your code in the app
 
