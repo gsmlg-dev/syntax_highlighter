@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:syntax_highlighter/syntax_highlighter.dart';
+import 'package:markdown_syntax_highlighter/syntax_highlighter.dart';
 
 void main() => runApp(MyApp());
 

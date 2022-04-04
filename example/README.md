@@ -36,11 +36,11 @@ add this code
 
 # Full Example
 
-check Full Example code in [example/lib/main.dart](https://github.com/viztushar/syntax_highlighter/blob/master/example/lib/main.dart)
+check Full Example code in [example/lib/main.dart](https://github.com/viztushar/markdown_syntax_highlighter/blob/master/example/lib/main.dart)
 
 ```javascript
 import 'package:flutter/material.dart';
-import 'package:syntax_highlighter/syntax_highlighter.dart';
+import 'package:markdown_syntax_highlighter/syntax_highlighter.dart';
 
 void main() => runApp(MyApp());
 
