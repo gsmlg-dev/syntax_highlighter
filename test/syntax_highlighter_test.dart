@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/material.dart';
-import 'package:markdown_syntax_highlighter/syntax_highlighter.dart';
+import 'package:markdown_syntax_highlighter/markdown_syntax_highlighter.dart';
 
 void main() {
   test('iOS icon list is correct size', () {

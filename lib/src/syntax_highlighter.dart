@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:string_scanner/string_scanner.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 
 class SyntaxHighlighterStyle {
   SyntaxHighlighterStyle({
@@ -51,10 +52,6 @@ class SyntaxHighlighterStyle {
   final TextStyle? punctuationStyle;
   final TextStyle? classStyle;
   final TextStyle? constantStyle;
-}
-
-abstract class SyntaxHighlighter {
-  TextSpan format(String src);
 }
 
 class DartSyntaxHighlighter extends SyntaxHighlighter {
